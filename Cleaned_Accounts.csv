@@ -1,0 +1,19 @@
+account_number,amount,account_name,account_type,reference_date
+1380,52999.93297,unsecured personal loan - eur,asset,2023-11-30
+1380,3409.02408,unsecured personal loan - eur,asset,2023-12-31
+1559,40555.36611,credit card - nok,asset,2023-11-30
+1559,65245.30457,credit card - nok,asset,2023-12-31
+1684,6826392.2,corporate leasing - sek,asset,2023-11-30
+1684,7749655.36,corporate leasing - sek,asset,2023-12-31
+1381,5263381.56,unsecured personal loan - sek,asset,2023-11-30
+1381,9083064.39,unsecured personal loan - sek,asset,2023-12-31
+2374,3941897.892,fixed - eur,liability,2023-11-30
+2374,15406820.97,fixed - eur,liability,2023-12-31
+2376,5968385.894,floating - eur,liability,2023-11-30
+2376,8158762.084,floating - eur,liability,2023-12-31
+2380,9719714.48,fixed - sek,liability,2023-11-30
+2380,11289944.86,fixed - sek,liability,2023-12-31
+2382,45629922.79,floating - sek,liability,2023-11-30
+2382,44908837.65,floating - sek,liability,2023-12-31
+2099,,period result,liability,2023-11-30
+2099,,period result,liability,2023-12-31

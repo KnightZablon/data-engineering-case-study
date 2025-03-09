@@ -1,0 +1,48 @@
+2025-03-09 11:28:17,751 - WARNING - Negative values found in Accounts.csv: 
+   account_number       amount   account_name account_type reference_date
+16           2099 -53076592.00  period result    liability     2023-11-30
+17           2099 -62862991.48  period result    liability     2023-12-31
+2025-03-09 11:28:17,753 - INFO - Successfully cleaned Accounts.csv
+2025-03-09 11:28:17,778 - INFO - Successfully cleaned Deposits.csv
+2025-03-09 11:28:17,806 - WARNING - Negative values found in Loans.csv: 
+                                              customer          customer_type  \
+7    00036b5569a912fe0578bad36ad9a91ecb44c623f4eed0...  financial corporation   
+9    007164f3cab3e5946e67de66a03adf649cc7e4a3b69056...  financial corporation   
+224  01e98bda548a680a266aa16525ec327319005973add3d1...  financial corporation   
+
+             loan_type country    amount currency  exchange_rate start_date  \
+7    corporate leasing      se -10632.26      sek            1.0 2026-10-06   
+9    corporate leasing      se  -3149.05      sek            1.0 2025-01-02   
+224  corporate leasing      se -70774.47      sek            1.0 2027-12-17   
+
+    maturity_date reference_date  
+7      2021-10-06     2023-11-30  
+9      2022-01-02     2023-11-30  
+224    2021-12-17     2023-12-31  
+2025-03-09 11:28:17,814 - INFO - Successfully cleaned Loans.csv
+2025-03-09 11:30:47,546 - WARNING - Negative values found in Accounts.csv: 
+   account_number       amount   account_name account_type reference_date
+16           2099 -53076592.00  period result    liability     2023-11-30
+17           2099 -62862991.48  period result    liability     2023-12-31
+2025-03-09 11:30:47,547 - INFO - Successfully cleaned Accounts.csv
+2025-03-09 11:30:47,569 - INFO - Successfully cleaned Deposits.csv
+2025-03-09 11:30:47,592 - WARNING - Negative values found in Loans.csv: 
+                                              customer          customer_type  \
+7    00036b5569a912fe0578bad36ad9a91ecb44c623f4eed0...  financial corporation   
+9    007164f3cab3e5946e67de66a03adf649cc7e4a3b69056...  financial corporation   
+224  01e98bda548a680a266aa16525ec327319005973add3d1...  financial corporation   
+
+             loan_type country    amount currency  exchange_rate start_date  \
+7    corporate leasing      se -10632.26      sek            1.0 2026-10-06   
+9    corporate leasing      se  -3149.05      sek            1.0 2025-01-02   
+224  corporate leasing      se -70774.47      sek            1.0 2027-12-17   
+
+    maturity_date reference_date  
+7      2021-10-06     2023-11-30  
+9      2022-01-02     2023-11-30  
+224    2021-12-17     2023-12-31  
+2025-03-09 11:30:47,597 - INFO - Successfully cleaned Loans.csv
+2025-03-09 17:48:53,087 - ERROR - No such comm target registered: jupyter.widget.control
+2025-03-09 17:48:53,093 - WARNING - No such comm: 3d3d0ed9-ef71-493b-a330-073c4896add1
+2025-03-09 17:56:48,918 - ERROR - No such comm target registered: jupyter.widget.control
+2025-03-09 17:56:48,920 - WARNING - No such comm: ae24706c-39fd-434e-b1ce-ff2ec627c4a1
