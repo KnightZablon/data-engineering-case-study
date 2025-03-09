@@ -1,29 +1,29 @@
-# 🚀 Data Engineering Case Study: Scalable Financial Data Pipeline
+ Data Engineering Case Study: Scalable Financial Data Pipeline
 
-## 📌 Project Overview
-This project addresses the **limitations of Excel-based data management** in a financial institution by implementing a **scalable and automated data pipeline**. The solution includes:
-✅ **Automated ETL Pipeline** to process financial data.  
-✅ **PostgreSQL/Snowflake database** for structured storage.  
-✅ **Apache Airflow** for scheduling and automation.  
-✅ **Data Quality & Integrity Checks** to ensure accuracy.  
-
----
-
-## 📊 1️⃣ Data Model (ERD)
-The **Entity-Relationship Diagram (ERD)** defines how **Customers, Accounts, Deposits, and Loans** interact:
-
-![ERD Diagram](./images/erd_diagram.png)
+  Project Overview
+This project addresses the limitations of Excel-based data management in a financial institution by implementing a scalable and automated data pipeline. The solution includes:
+-Automated ETL Pipeline to process financial data.  
+-PostgreSQL/Snowflake database for structured storage.  
+-Apache Airflow** for scheduling and automation.  
+-Data Quality & Integrity Checks to ensure accuracy.  
 
 ---
 
-## 🛠️ 2️⃣ Technical Implementation
+1️⃣ Data Model (ERD)
+The Entity-Relationship Diagram (ERD)** defines how Customers, Accounts, Deposits, and Loans interact:
 
-### **🔹 ETL Pipeline**
-- **Extract:** Reads data from CSV files (future support for APIs).  
-- **Transform:** Cleans and standardizes data (handles missing values, duplicates, and currency conversions).  
-- **Load:** Stores structured data in a **PostgreSQL or Snowflake database**.  
+[ERD Diagram](./images/erd_diagram.png)
 
-### **🔹 Database Schema (PostgreSQL)**
+---
+
+ 2. Technical Implementation
+
+ETL Pipeline
+Extract: Reads data from CSV files (future support for APIs).  
+Transform: Cleans and standardizes data (handles missing values, duplicates, and currency conversions).  
+Load: Stores structured data in a PostgreSQL or Snowflake database.  
+
+🔹 Database Schema (PostgreSQL)
 ```sql
 CREATE TABLE customers (
     customer_id VARCHAR(100) PRIMARY KEY,
@@ -39,39 +39,38 @@ CREATE TABLE accounts (
     reference_date DATE
 );
 ```
-*(Full schema available in `sql/schema.sql`)*
+(Full schema available in `sql/schema.sql`)
 
-### **🔹 Automation with Apache Airflow**
-- **Daily ETL runs** scheduled with **Airflow DAGs**.
-- **Automated data validation** before ingestion.
-- **Alerts & Logging** to track failures.
+🔹 Automation with Apache Airflow
+   Daily ETL runs scheduled with Airflow DAGs.
+   Automated data validation before ingestion.
+   Alerts & Logging to track failures.
 
----
 
-## 🚀 3️⃣ Setup Instructions
+3 Setup Instructions
 
-### **🔹 1. Clone Repository**
+1. Clone Repository
 ```bash
 git clone https://github.com/yourusername/data-engineering-case-study.git
 cd data-engineering-case-study
 ```
 
-### **🔹 2. Install Dependencies**
+2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### **🔹 3. Run the ETL Pipeline**
+3. Run the ETL Pipeline
 ```bash
 python etl_pipeline.py
 ```
 
-### **🔹 4. Deploy Database**
+4. Deploy Database
 ```bash
 psql -U youruser -d yourdatabase -f sql/schema.sql
 ```
 
-### **🔹 5. Schedule ETL with Airflow**
+5. Schedule ETL with Airflow
 ```bash
 airflow scheduler &
 airflow webserver
@@ -79,22 +78,22 @@ airflow webserver
 
 ---
 
-## 📈 4️⃣ Business Impact
-✅ **Handles Millions of Transactions Per Year**  
-✅ **Automates Data Processing & Improves Efficiency**  
-✅ **Supports New Financial Products & Regulatory Changes**  
-✅ **Reduces Errors & Ensures Data Accuracy**  
+4️⃣ Business Impact
+-Handles Millions of Transactions Per Year 
+-Automates Data Processing & Improves Efficiency 
+-Supports New Financial Products & Regulatory Changes 
+-Reduces Errors & Ensures Data Accuracy  
 
 ---
 
-## 📌 Future Enhancements
-🚀 **Data Quality Monitoring** with **Great Expectations**  
-🚀 **Performance Optimization** (Partitioning & Indexing)  
-🚀 **Predictive Analytics** (Credit Risk AI Models)  
+ Future Enhancements
+Data Quality Monitoring** with Great Expectations  
+Performance Optimization (Partitioning & Indexing)  
+Predictive Analytics (Credit Risk AI Models)  
 
 ---
 
-## 💡 Contributors
-- **Your Name** | [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/yourusername)
+Contributor
+Knight Zablon (/https://www.linkedin.com/in/knight-zablon-3494041b6/) 
 - Open to collaboration! Feel free to contribute! 🎉
 
